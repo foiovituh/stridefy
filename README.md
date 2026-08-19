@@ -1,4 +1,5 @@
 # 🧭 Stridefy
+![GitHub License](https://img.shields.io/github/license/foiovituh/stridefy)
 
 > CLI tool for organizing attack surface targets using STRIDE.
 
