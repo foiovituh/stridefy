@@ -6,7 +6,7 @@ from .output import render
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Minimal STRIDE threat modeling helper"
+        description="STRIDE-based target categorization"
     )
 
     parser.add_argument(
