@@ -21,22 +21,36 @@ Stridefy uses keyword-based heuristics to suggest relevant STRIDE categories for
 
 ## 📦 Installation
 
+### Requirements
+
+- Python 3.12+
+- pipx
+
+If pipx is not installed:
+
+```bash
+sudo apt install pipx
+pipx ensurepath
+```
+
+After running `pipx ensurepath`, open a new terminal.
+
 ### From GitHub
 
-Clone the repository and install Stridefy:
+Install Stridefy using pipx:
+
+```bash
+pipx install git+https://github.com/foiovituh/stridefy.git
+```
+
+### Development environment
+
+Clone and install for development:
 
 ```bash
 git clone https://github.com/foiovituh/stridefy.git
 cd stridefy
 
-python3 -m pip install .
-```
-
-### Development environment
-
-Create a virtual environment and install development dependencies:
-
-```bash
 python3 -m venv .venv
 source .venv/bin/activate
 
